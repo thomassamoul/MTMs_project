@@ -1,0 +1,14 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.MTMsProject" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorSecondary">@color/primary_color</item>
+        <item name="colorAccent">@color/primary_color</item>
+    </style>
+
+    <style name="MyFabStyle" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@android:color/white</item>
+        <item name="rippleColor">@color/primary_color</item>
+    </style>
+</resources>
